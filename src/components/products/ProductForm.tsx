@@ -39,7 +39,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
     const fetchCategories = async () => {
       setLoading(true);
       try {
-        const response = await fetch(`https://cdfc-2405-201-200e-88b8-1b6-d0cf-ad60-2131.ngrok-free.app/api/admin/get-all-product-categories`, {
+        const response = await fetch(`https://bd8d1ee5-b7ca-40ff-a0f2-84288502d68a-00-306siaupcy3me.sisko.replit.dev/api/admin/get-all-product-categories`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
     const fetchSubCategories = async () => {
       setLoading(true);
       try {
-        const response = await fetch(`https://cdfc-2405-201-200e-88b8-1b6-d0cf-ad60-2131.ngrok-free.app/api/admin/get-all-product-sub-categories`, {
+        const response = await fetch(`https://bd8d1ee5-b7ca-40ff-a0f2-84288502d68a-00-306siaupcy3me.sisko.replit.dev/api/admin/get-all-product-sub-categories`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
