@@ -13,7 +13,7 @@ const ProductTable: React.FC = () => {
 
   /* ---------- load list ---------- */
   const loadProducts = async () => {
-    const res = await fetch(`https://bd8d1ee5-b7ca-40ff-a0f2-84288502d68a-00-306siaupcy3me.sisko.replit.dev/api/admin/get-all-product`, {
+    const res = await fetch(`https://cdfc-2405-201-200e-88b8-1b6-d0cf-ad60-2131.ngrok-free.app/api/admin/get-all-product`, {
       headers: {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${localStorage.getItem('token')}`,
